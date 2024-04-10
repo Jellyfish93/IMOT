@@ -36,3 +36,7 @@ const dragAndDrop = () => {
     card.addEventListener('dragend', dragEnd);
 };
 dragAndDrop()
+
+localStorage.setItem('drag', JSON.stringify(11))
+
+JSON.parse(localStorage.getItem('drag'))
